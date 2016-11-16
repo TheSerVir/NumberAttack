@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NumberAttack</string>
+    <string name="action_settings">Налаштування</string>
+    <string name="action_refresh">Нова гра</string>
+	<string-array name="size">
+		<item>3x3</item>
+		<item>4x4</item>
+		<item>5x5</item>
+		<item>6x6</item>
+		<item>7x7</item>
+		<item>8x8</item>
+		<item>9x9</item>
+		<item>10x10</item>
+	</string-array>
+	<string-array name="size_values">
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+		<item>10</item>
+	</string-array>
+	
+	<string name="banner_ad_unit_id">ca-app-pub-4365532211015210/1957612881</string>
+	
+	<string name="victory">Перемога</string>
+	<string name="scores">Набрано очок:</string>
+	<string name="from">з</string>
+	<string name="bonus">Бонуси</string>
+	<string name="b1">за час игры</string>
+	<string name="b2">за час запам&#8217;ятовування</string>
+	<string name="b3">за кількість чисел</string>
+	<string name="result">Підсумок -</string>
+	<string name="tryagain">Хочете зіграти ще раз?</string>
+	<string name="levelup">Підвищити рівень складності?</string>	
+	<string name="letsgo">Вперед!</string>	
+	<string name="mainscores">Головний рахунок</string>	
+	
+	<string name="yes">Так</string>
+	<string name="no">Ні</string>		
+	
+	<string name="sec1">секунда</string>	
+	<string name="sec2">секунди</string>
+	<string name="sec3">секунд</string>	
+	
+	<string name="time_info">Час</string>	
+	<string name="s">с</string>	
+	
+	<string name="vibro">Вібрація</string>	
+	<string name="vibro_summary">Включення/вимикання вібрації</string> 
+	<string name="size">Розмір поля</string>
+	<string name="size_summary">Розміри поля від 6х6 зручні лише для великих екранів</string> 
+    <string name="time">Час запам&#8217;ятовування</string>
+    <string name="time_summary">Чим менше час, тим більше очок</string>
+	<string name="count">Кількість чисел</string>
+	<string name="count_summary">Чим більше чисел, тим більше очок</string>
+	
+	<string name="rules_title">Як грати?</string>
+	<string name="rules">1. Запам&#8217;ятовуй розташування чисел, поки вони на екрані. \n 2. Натискай на клітинки де були числа в порядку їх зростання. \n Щоб почати гру натисни на копку \"Нова гра\" вгорі.</string>	
+	<string name="understand">Зрозуміло?</string>
+	<string name="okay">Зрозуміло</string>
+	
+	
+	<string name="rateit">Оцініть, будь-ласка</string>
+	<string name="likeit">Вам сподобалось?</string>
+	<string name="later">Нагадати пізніше</string>
+	<string name="dontremember">Не нагадувати</string>
+	
+	<string name="money">Хочете підтримати автора?</string>
+	<string name="money_summary">Ставте добрі оцінки в маркеті :)</string>
+	<string name="rateme">Оцініти</string>
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NumberAttack</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_refresh">New game</string>
+	<string-array name="size">
+		<item>3x3</item>
+		<item>4x4</item>
+		<item>5x5</item>
+		<item>6x6</item>
+		<item>7x7</item>
+		<item>8x8</item>
+		<item>9x9</item>
+		<item>10x10</item>
+	</string-array>
+	<string-array name="size_values">
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+		<item>10</item>
+	</string-array>
+	
+	<string name="banner_ad_unit_id">ca-app-pub-4365532211015210/1957612881</string>
+	
+	<string name="victory">Victory</string>
+	<string name="scores">Points scored:</string>
+	<string name="from">out of</string>
+	<string name="bonus">Power Ups</string>
+	<string name="b1">during the game</string>
+	<string name="b2">per memorization</string>
+	<string name="b3">amount of numbers</string>
+	<string name="result">Total -</string>
+	<string name="tryagain">Want to play again?</string>
+	<string name="levelup">Увеличить уровень сложности?</string>
+	<string name="letsgo">Go!</string>	
+	<string name="mainscores">Main scores</string>	
+		
+	<string name="yes">Yes</string>
+	<string name="no">No</string>	
+		
+	
+	<string name="sec1">sec</string>	
+	<string name="sec2">sec</string>
+	<string name="sec3">sec</string>	
+	
+	<string name="time_info">Time</string>	
+	<string name="s">sec</string>	
+	
+	<string name="vibro">Vibration</string>	
+	<string name="vibro_summary">Turn on/off vibration</string> 
+	<string name="size">Field size</string>
+	<string name="size_summary">Field sizes from 6x6 suitable only for larger screens</string> 
+    <string name="time">Memorization time</string>
+    <string name="time_summary">The less time, the more points</string>
+	<string name="count">Amount of numbers</string>
+	<string name="count_summary">The greater the number, the more points</string>
+	
+	<string name="rules_title">How to play?</string>
+	<string name="itseasy">It&#8217;s easy</string>
+	<string name="rules">1. Memorize the location of numbers on the screen, until they visible. \n 2. Push on the cells where there were numbers in ascending order. \n To start the game click on button \"New Game\" at the top.</string>	
+	<string name="understand">Understand?</string>
+	<string name="okay">Yes, of course</string>
+	
+	<string name="rateit">Rate it, please</string>
+	<string name="likeit">Are you like it?</string>
+	<string name="later">Remember later</string>
+	<string name="dontremember">Don&#8217;t remember</string>
+	
+	<string name="money">Want to support the author?</string>
+	<string name="money_summary">Put a good score in Google Play :)</string>
+	<string name="rateme">Rate it</string>
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    			  xmlns:example="http://schemas.android.com/apk/res/com.virstyuk.zapominaika" >
+    <ListPreference
+	 android:entries="@array/size"
+	 android:entryValues="@array/size_values"
+	 android:key="saved_size"
+	 android:summary="@string/size_summary"
+	 android:title="@string/size"></ListPreference>
+    <com.virstyuk.zapominaika.SeekBarPreference
+        android:key="saved_time"
+	    android:title="@string/time"
+	    android:dialogTitle="@string/time"
+	    android:summary="@string/time_summary"
+	    android:persistent="true"
+	    android:defaultValue="3"
+	    example:minValue="1"
+	    example:maxValue="60" />
+	<com.virstyuk.zapominaika.CountSeekBarPreference
+        android:key="saved_count"
+	    android:title="@string/count"
+	    android:dialogTitle="@string/count"
+	    android:summary="@string/count_summary"
+	    android:persistent="true"
+	    android:defaultValue="3"
+	    example:minValue="1"
+	    example:maxValue="9" />
+	<CheckBoxPreference
+	 android:key="saved_vibro"
+	 android:summary="@string/vibro_summary"
+	 android:title="@string/vibro"
+	 android:defaultValue="true">
+	</CheckBoxPreference>
+	
+	<Preference
+	    android:key="rate_me"
+	    android:layout="@layout/support_author">
+	</Preference>
+	<Preference
+		android:key="rate_button"
+	    android:layout="@layout/support_button">
+	</Preference>
+</PreferenceScreen>

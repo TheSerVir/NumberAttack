@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NumberAttack</string>
+    <string name="action_settings">Настройки</string>
+    <string name="action_refresh">Новая игра</string>
+	<string-array name="size">
+		<item>3x3</item>
+		<item>4x4</item>
+		<item>5x5</item>
+		<item>6x6</item>
+		<item>7x7</item>
+		<item>8x8</item>
+		<item>9x9</item>
+		<item>10x10</item>
+	</string-array>
+	<string-array name="size_values">
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+		<item>10</item>
+	</string-array>
+	
+	<string name="banner_ad_unit_id">ca-app-pub-4365532211015210/1957612881</string>
+	
+	<string name="victory">Победа</string>
+	<string name="scores">Набрано очков:</string>
+	<string name="from">из</string>
+	<string name="bonus">Бонусы</string>
+	<string name="b1">за время игры</string>
+	<string name="b2">за время запоминания</string>
+	<string name="b3">за количество чисел</string>
+	<string name="result">Итог -</string>
+	<string name="tryagain">Хотите сыграть еще раз?</string>
+	<string name="levelup">Увеличить уровень сложности?</string>	
+	<string name="letsgo">Вперёд!</string>	
+	<string name="mainscores">Основной счёт</string>	
+	
+	<string name="yes">Да</string>
+	<string name="no">Нет</string>		
+	
+	<string name="sec1">секунда</string>	
+	<string name="sec2">секунды</string>
+	<string name="sec3">секунд</string>	
+	
+	<string name="time_info">Время</string>	
+	<string name="s">с</string>	
+	
+	<string name="vibro">Вибрация</string>	
+	<string name="vibro_summary">Включение/выключение вибрации</string> 
+	<string name="size">Размер поля</string>
+	<string name="size_summary">Размеры поля от 6х6 удобны лишь для больших экранов</string> 
+    <string name="time">Время запоминания</string>
+    <string name="time_summary">Чем меньше время, тем больше очков</string>
+	<string name="count">Количество чисел</string>
+	<string name="count_summary">Чем больше чисел, тем больше очков</string>
+	
+	<string name="rules_title">Как играть?</string>
+	<string name="rules">1. Запоминай расположение чисел, пока они на экране.\n2. Нажимай на клеточки где были числа в порядке их возрастания.\nЧтобы начать игру нажми на копку \"Новая игра\" вверху.</string>
+	<string name="understand">Всё понятно?</string>
+	<string name="okay">Всё понятно</string>
+	
+	<string name="rateit">Оцените, пожалуйста</string>
+	<string name="likeit">Вам понравилось?</string>
+	<string name="later">Напомнить позже</string>
+	<string name="dontremember">Не напоминать</string>
+	
+	<string name="money">Хотите поддержать автора?</string>
+	<string name="money_summary">Cтавьте хорошие оценки в маркете :)</string>
+	<string name="rateme">Оценить</string>
+</resources>

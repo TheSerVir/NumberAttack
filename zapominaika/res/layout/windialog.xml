@@ -1,0 +1,171 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_root"
+	android:layout_width="fill_parent"
+  	android:layout_height="fill_parent"
+  	android:orientation="vertical"
+  	android:gravity="center"
+  	android:background="#fff">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#30ca00" 
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/result"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="100"
+                android:textSize="26sp"
+                android:textColor="#669900"
+                android:gravity="center"
+                android:layout_margin="5dp"
+                android:background="@drawable/scores" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#e5c73d" 
+            android:gravity="center">
+	        <TextView
+	            android:id="@+id/textView1"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textSize="18sp"
+	            android:textColor="#669900"
+	            android:text="@string/mainscores" />
+		</LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+			<TextView
+	            android:id="@+id/myscores"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textSize="28sp"
+	            android:textColor="#669900"
+	            android:text="40" />
+			<TextView
+	            android:id="@+id/from"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textSize="18sp"
+	            android:textColor="#669900"
+	            android:padding="10px"
+	            android:text="@string/from" />
+			<TextView
+	            android:id="@+id/maximum"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textSize="28sp"
+	            android:textColor="#669900"
+	            android:text="40" />
+        </LinearLayout>
+		
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@drawable/scores_bg3" 
+            android:padding="0dp"
+            android:gravity="center">
+	        <TextView
+	            android:id="@+id/bonus"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textSize="18sp"
+	            android:textColor="#d8ff00"
+	            android:text="@string/bonus" />
+		</LinearLayout>
+		
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:paddingLeft="20px"
+            android:paddingRight="20px"
+            android:background="#ff5a00" >
+			<TextView
+	            android:id="@+id/b1"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textSize="18sp"
+	            android:textColor="#fff"
+	            android:text="@string/b1" />
+			<TextView
+	            android:id="@+id/timebonus"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textSize="18sp"
+	            android:textColor="#fff"
+	            android:padding="10px"
+	            android:text="" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:paddingLeft="20px"
+            android:paddingRight="20px"
+            android:background="#ff5a00" >
+			<TextView
+	            android:id="@+id/b2"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textSize="18sp"
+	            android:textColor="#fff"
+	            android:text="@string/b2" />
+			<TextView
+	            android:id="@+id/gtimebonus"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textSize="18sp"
+	            android:textColor="#fff"
+	            android:padding="10px"
+	            android:text="" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:paddingLeft="20px"
+            android:paddingRight="20px"
+            android:background="#ff5a00" >
+			<TextView
+	            android:id="@+id/b3"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textSize="18sp"
+	            android:textColor="#fff"
+	            android:text="@string/b3" />
+			<TextView
+	            android:id="@+id/countbonus"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textSize="18sp"
+	            android:textColor="#fff"
+	            android:padding="10px"
+	            android:text="" />
+        </LinearLayout>
+		
+	    <LinearLayout
+	        android:id="@+id/buttons"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="2" >
+			<Button
+	         android:id="@+id/yes"
+	         android:layout_width="0dp"
+	         android:layout_height="wrap_content"
+	         android:layout_weight="1"
+	         android:background="#30ca00"
+	         android:text="@string/letsgo"
+	         android:textColor="#fff"
+	         android:padding="10dp"
+	         android:textSize="28sp" />
+	     </LinearLayout>
+
+</LinearLayout>

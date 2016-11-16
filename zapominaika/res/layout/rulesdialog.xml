@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/rules_layout"
+    android:background="#fff" >
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#30ca00" 
+            android:gravity="center">
+	        <TextView
+	            android:id="@+id/bonus"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textSize="28sp"
+	            android:paddingTop="5dp"
+	            android:layout_margin="20px"
+	            android:textColor="#fff"
+	            android:text="@string/rules_title" />
+		</LinearLayout>
+    
+    <TextView
+        android:id="@+id/text_rules"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:padding="10px"
+        android:textColor="#000"
+        android:text="@string/rules" />
+    
+    <TextView
+        android:id="@+id/understand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        android:gravity="center"
+        android:textColor="#669900"
+        android:padding="10px"
+        android:text="@string/understand" />
+
+	<Button
+		android:id="@+id/okay_button"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="#30ca00"
+		android:text="@string/okay"
+		android:textColor="#fff"
+		android:padding="20px"
+		android:textSize="32sp" />
+</LinearLayout>
